@@ -93,6 +93,9 @@ int main(){
         else if(!strcmp(operation,"cp"))
             command_cp();
         
+        else if(!strcmp(operation,"cat"))
+            command_cat();
+        
         else
             system(now_order);
 
