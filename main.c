@@ -29,6 +29,8 @@ void command_rm();
 void command_rmdir();
 void command_cp();
 void command_mv();
+void command_chmod();
+void command_cat();
 void do_pipe();
 void do_redirection();
 
